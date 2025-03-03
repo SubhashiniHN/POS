@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-03T18:16:04 IST" name="Default suite" finished-at="2025-03-03T18:16:25 IST" duration-ms="20419">
+    <groups>
+    </groups>
+    <test started-at="2025-03-03T18:16:04 IST" name="Default test" finished-at="2025-03-03T18:16:25 IST" duration-ms="20419">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.HomePageTest@1cbbffcd]" started-at="2025-03-03T18:16:04 IST" name="setUp" finished-at="2025-03-03T18:16:18 IST" duration-ms="13570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpUrl(java.lang.String)[pri:0, instance:tests.HomePageTest@1cbbffcd]" started-at="2025-03-03T18:16:18 IST" name="setUpUrl" finished-at="2025-03-03T18:16:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.pos.com.my/send/ratecalculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpUrl -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:tests.HomePageTest@1cbbffcd]" started-at="2025-03-03T18:16:18 IST" name="setUpHomePage" finished-at="2025-03-03T18:16:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="HomeTest()[pri:0, instance:tests.HomePageTest@1cbbffcd]" started-at="2025-03-03T18:16:18 IST" name="HomeTest" finished-at="2025-03-03T18:16:22 IST" duration-ms="3835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeTest -->
+        <test-method is-config="true" signature="setUpHomePage()[pri:0, instance:tests.HomePageTest@1cbbffcd]" started-at="2025-03-03T18:16:22 IST" name="setUpHomePage" finished-at="2025-03-03T18:16:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHomePage -->
+        <test-method signature="rateCalculatorTest()[pri:0, instance:tests.HomePageTest@1cbbffcd]" started-at="2025-03-03T18:16:22 IST" name="rateCalculatorTest" finished-at="2025-03-03T18:16:24 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rateCalculatorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@1cbbffcd]" started-at="2025-03-03T18:16:24 IST" name="tearDown" finished-at="2025-03-03T18:16:25 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
